@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>2048</title>
+<script src="https://cjrtnc.leaningtech.com/4.3/loader.js"></script>
+</head>
+<body>
+<script>
+(async function () {
+    await cheerpjInit();
+    cheerpjCreateDisplay(700, 700);
+    await cheerpjRunJar("/app/game2048.jar");
+})();
+</script>
+</body>
+</html>
