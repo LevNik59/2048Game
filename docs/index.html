@@ -9,7 +9,7 @@
 <script>
 (async function () {
     console.log("1. Инициализация CheerpJ...");
-    await cheerpjInit();
+    await cheerpjInit({ version: 17 });
     console.log("2. Готово! Создаю дисплей...");
     cheerpjCreateDisplay(700, 700);
     console.log("3. Загружаю JAR...");
